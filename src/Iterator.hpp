@@ -13,6 +13,7 @@ class IntIterator
 {
     int position, end, increment;
 public:
+    IntIterator(int begin, int end, int increment): position(begin), end(end), increment(increment) {}
     IntIterator(int begin, int end): position(begin), end(end), increment(1) {}
 
     bool has_next()
