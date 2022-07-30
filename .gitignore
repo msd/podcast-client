@@ -38,3 +38,8 @@
 /.vs
 
 build
+
+*.txt
+*.html
+*.xml
+*.xhtml
