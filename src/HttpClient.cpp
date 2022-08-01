@@ -66,7 +66,7 @@ HttpClient::HttpClient()
 {
     init();
     curl = curl_easy_init();
-    curl_easy_setopt(curl, CURLOPT_CAINFO, "../cacert.pem");
+    curl_easy_setopt(curl, CURLOPT_CAINFO, "cacert.pem");
     if (!curl)
     {
         throw std::runtime_error{"failed to initialize easy curl"};
